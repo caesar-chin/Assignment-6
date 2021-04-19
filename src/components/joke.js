@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./jokes.css";
+import styles from "./jokes.module.css";
 
 export default class Joke extends React.Component {
   constructor(props) {
@@ -23,14 +23,15 @@ export default class Joke extends React.Component {
 
   render() {
     var { isLoaded, items } = this.state;
-    const cout = !isLoaded ? "Joke Loading..." : " Joke Loaded.";
+    const cout = !isLoaded ? "Jokes Loading..." : " Jokes Loaded.";
     return (
-      <div>
-        <h1 className={styles.joking}>{cout}</h1>
+      <div className={styles.allall}>
+        <h1 style={{ textAlign: "center" }}>{cout}</h1>
         {items.map((item) => (
           //Help needed here
-          <div key={item.id} className={styles.joking}>
-            {item.setup} {item.punchline}
+          <div key={item.id} className={styles.all}>
+            <div className={styles.joking}> {item.setup} </div>
+            <div className={styles.answer}> {item.punchline} </div>
           </div>
         ))}
       </div>
