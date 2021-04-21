@@ -1,0 +1,39 @@
+.doggo-img {
+  display: block;
+  width: 700px;
+  height: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid grey;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 70px;
+  font-size: 20px;
+  background-color: aqua;
+  color: blueviolet;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.doggos-header {
+  text-align: center;
+  color: red;
+}
+
+.doggos-note {
+  text-align: center;
+  font-size: 12px;
+}
+
+.corndogs {
+  font-size: 15px;
+}
