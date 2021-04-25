@@ -33,3 +33,24 @@
   border-radius: 25px;
   background-color: #e8a87c;
 }
+
+.navbar {
+  display: flex;
+  background-color: grey;
+  height: 10vh;
+  list-style-type: none;
+}
+
+.navbarDiv:hover {
+  background-color: white;
+}
+
+.linkItems {
+  height: 10vh;
+  width: 33.3vw;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

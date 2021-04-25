@@ -1,16 +1,12 @@
-import logo from '../logo.svg';
-import '../App.css';
-import Joke from './joke';
-import Doggos from './doggos';
-
+import logo from "../logo.svg";
+import "../App.css";
+import Routes from "./Routes";
+import Joke from "./joke";
+import Doggos from "./doggos";
+import ChuckNorris from "./ChuckNorris";
 
 function App() {
-  return (
-    <div>
-      <Joke />
-      <Doggos />
-    </div>
-  );
+  return <Routes />;
 }
 
 export default App;
