@@ -1,4 +1,4 @@
-# doggos-jokes-chuck.netlify.app
+# https://doggos-jokes-chuck.netlify.app
 
 Jokes API: https://github.com/15Dkatz/official_joke_api
 
