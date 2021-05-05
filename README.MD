@@ -1,4 +1,4 @@
-# https://assignment-6-doggos-jokes-chuck.netlify.app/
+# doggos-jokes-chuck.netlify.app
 
 Jokes API: https://github.com/15Dkatz/official_joke_api
 
